@@ -4,3 +4,40 @@
 
 .lang-switch{border:1px solid #444;padding:10px 12px;color:#fff!important;font-size:10px!important}.lang-switch:hover{border-color:#888}.jp-body{font-family:'Noto Sans JP',Inter,Arial,sans-serif}.jp-body .hero h1,.jp-body .big,.jp-body .section-head h2,.jp-body .service-layout h2,.jp-body .service h3,.jp-body .manifesto p,.jp-body .tactical h2,.jp-body .contact h2{font-family:'Noto Sans JP','Barlow Condensed',sans-serif;letter-spacing:-.04em}.jp-body .hero h1{font-weight:800;line-height:.95;font-size:clamp(54px,8vw,116px)}.jp-body .big{line-height:1.08;font-weight:800}.jp-body .section-head h2,.jp-body .service-layout h2,.jp-body .tactical h2,.jp-body .contact h2{line-height:1.0;font-weight:800}.jp-body .service h3{font-weight:800;line-height:1.05}.jp-body .eyebrow,.jp-body .kicker,.jp-body .nav a,.jp-body .link,.jp-body .btn,.jp-body .muted,.jp-body .scroll{font-family:Inter,'Noto Sans JP',sans-serif}.jp-body .copy>p:not(.big):not(.muted),.jp-body .card p,.jp-body .service p,.jp-body .contact p{line-height:2}.jp-body .hero p{line-height:1.9}.jp-body .hero .actions{margin-top:42px}
 @media(max-width:800px){.lang-switch{padding:8px 11px}.jp-body .hero h1{font-size:clamp(48px,13vw,86px)}}
+/* Japanese typography fixes */
+.jp-body .hero h1 {
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+}
+
+.jp-body .manifesto p {
+  line-height: 1.05;
+  margin: 80px 0;
+  letter-spacing: -0.045em;
+}
+
+.jp-body .manifesto p span {
+  display: block;
+  margin-top: 18px;
+}
+
+.jp-body .hero h1 em {
+  display: inline-block;
+  line-height: 1.08;
+}
+
+@media(max-width:800px) {
+  .jp-body .hero h1 {
+    line-height: 1.08;
+    letter-spacing: -0.05em;
+  }
+
+  .jp-body .manifesto p {
+    line-height: 1.08;
+    margin: 60px 0;
+  }
+
+  .jp-body .manifesto p span {
+    margin-top: 14px;
+  }
+}

@@ -1,0 +1,20 @@
+<section id="contact" class="section contact">
+  <div class="kicker">04 / CONTACT</div>
+  <div class="copy reveal">
+    <h2>LET'S BUILD<span>SOMETHING.</span></h2>
+    <p>製品開発、OEM、カスタム製作に関するお問い合わせはこちらから。</p>
+
+    <form id="contact-form" class="contact-form">
+      <label><span>お名前</span><input type="text" name="name" autocomplete="name" maxlength="100" required></label>
+      <label><span>メールアドレス</span><input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+      <label><span>お問い合わせ内容</span><textarea name="message" rows="7" maxlength="5000" required></textarea></label>
+
+      <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-theme="dark"></div>
+      <button class="btn blue" type="submit">SEND INQUIRY</button>
+      <p id="contact-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="/contact-form.js" defer></script>

@@ -49,7 +49,7 @@ async function handleContact(request, env) {
     const html = `<h2>PHANTOM CREATIVE LAB — Website Inquiry</h2><p><strong>Name:</strong> ${escapeHtml(name)}</p><p><strong>Email:</strong> ${escapeHtml(email)}</p><hr><p><strong>Message:</strong></p><p style="white-space:pre-wrap">${escapeHtml(message)}</p>`;
 
     await env.EMAIL.send({
-      from: "noreply@phantomcreativelab.com",
+      from: "info@phantomcreativelab.com",
       to: env.EMAIL_TO,
       replyTo: email,
       subject,

@@ -1,5 +1,4 @@
 worker.js
-wrangler.json
 wrangler.jsonc
 .assetsignore
 functions/
